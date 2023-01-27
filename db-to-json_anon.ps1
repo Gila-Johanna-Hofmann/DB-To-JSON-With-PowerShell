@@ -26,7 +26,7 @@ $reader = $command.ExecuteReader()
 # Loop through the rows and do something with the data
 # reader.Read() is true until there are no more rows to read
 while ($reader.Read()) {
-    # add the data from each row to a hashtable
+    # add the data from each row to a hashtable; the integer indicates the column
     $results += @{$($reader.GetValue(1))=$($reader.GetValue(0))} 
 }
 
