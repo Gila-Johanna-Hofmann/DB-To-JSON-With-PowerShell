@@ -1,4 +1,4 @@
-# SQL to JSON with PowerShell
+# DB to JSON with PowerShell
 
 ## General info
 A PS script that reads two columns from a database and converts the results to a key-value-list in JSON format.
